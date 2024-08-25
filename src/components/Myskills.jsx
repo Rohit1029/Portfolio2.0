@@ -86,14 +86,14 @@ const Myskills = () => {
       className="w-full h-auto  bg-gradient-to-b from-gray-800 to-black "
     >
       <div className="max-w-full-lg mx-auto p-4 flex flex-col justify-center w-8/12 h-full text-white ">
-        <div className="mt-32" >
+        <div className="md:mt-32" >
           <p className="text-4xl font-bold border-b-4 w-full text-center border-gray-500 inline ">
             My Skills
           </p>
           <p className="py-6">These are the technologies I've worked with</p>
         </div>
 
-        <div className="w-full grid grid-cols-2 sm:grid-cols-3 gap-8 text-center py-8 px-12 sm:px-0">
+        <div className="w-full grid grid-cols-1 sm:grid-cols-3 gap-8 text-center py-8 px-12 sm:px-0">
           {techs.map(({ id, src, title, style }) => (
             <div
               key={id}

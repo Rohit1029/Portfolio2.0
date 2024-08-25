@@ -59,13 +59,14 @@ const SocialLinks = () => {
   ];
 
   return (
-    <div className="hidden lg:flex flex-col top-[35%] left-0 fixed">
-      <ul>
+    <div className=" flex justify-center flex-row bg-gradient-to-b to-black from-gray-800 ">
+      <div className=" my-8 w-8/12 flex justify-center">
+      <ul className="grid grid-cols-2 w-8/12 flex-row justify-center  md:flex md:flex-col md:top-[35%] md:left-0 md:fixed">
         {links.map(({ id, child, href, style, download }) => (
           <li
             key={id}
             className={
-              "flex justify-between items-center w-40 h-14 px-4 ml-[-100px] hover:ml-[-10px] hover:rounded-md duration-300 bg-gray-500" +
+              "flex justify-between  w-auto mx-1 p-4 items-center md:w-40 h-14 px-4 md:ml-[-100px] md:hover:ml-[-10px] md:hover:rounded-md md:duration-300 bg-gray-500" +
               " " +
               style
             }
@@ -82,6 +83,8 @@ const SocialLinks = () => {
           </li>
         ))}
       </ul>
+      </div>
+      
     </div>
   );
 };
