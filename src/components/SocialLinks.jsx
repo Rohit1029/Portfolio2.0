@@ -79,7 +79,7 @@ const SocialLinks = () => {
   return (
     <div className=" flex justify-center flex-row bg-gradient-to-b to-black from-gray-800 ">
       <div className=" my-8 w-8/12 flex justify-center">
-      <ul className="grid grid-cols-2 w-8/12 flex-row justify-center  md:flex md:flex-col md:top-[35%] md:left-0 md:fixed">
+      <ul className="grid grid-cols-2 sm:w-2/12 flex-row justify-center  md:flex md:flex-col md:top-[35%] md:left-0 md:fixed">
         {links.map(({ id, child, href, style, download,name }) => (
           <li
             key={id}
