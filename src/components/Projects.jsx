@@ -19,9 +19,9 @@ const Projects = () => {
     {
       id: 2,
       src: reactParallax,
-      demo:"https://estate.100jsprojects.com/",
+      demo:"https://mern-estate2-0.onrender.com/",
       str:"Estate",
-      code:"https://github.com/Rohit1029/portfolio",
+      code:"https://github.com/Rohit1029/MERN_ESTATE2.0",
       
     },
     {
